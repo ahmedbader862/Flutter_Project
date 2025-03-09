@@ -109,8 +109,10 @@ class _ShowDeatilesState extends State<ShowDeatiles> {
                                 ),
                                 IconButton(
                                   onPressed: () {
-                                    //  ${Detailes.moviesDetailes[0].id}
-                                    HiveMethods().handleHive(context, Detailes.moviesDetailes);
+                                    // print(Detailes.moviesDetailes[0].profile_path);
+                                     
+                                    HiveMethods().handleHive(context, Detailes.moviesDetailes[0]);
+                                    
                                   },
                                   icon: Icon(Icons.class_sharp,
                                       color: Colors.yellow, size: 20),

@@ -78,13 +78,13 @@ setState(() {
                           size: 20,
                         ),
                         const SizedBox(width: 4),
-                        Text(
-                          data[i]['vote_average'],
-                          style: const TextStyle(
-                            fontSize: 12,
-                            color: Color.fromRGBO(156, 156, 156, 1),
-                          ),
-                        ),
+                        // Text(
+                          // data[i]['vote_average'],
+                          // style: const TextStyle(
+                            // fontSize: 12,
+                            // color: Color.fromRGBO(156, 156, 156, 1),
+                          // ),
+                        // ),
                       ],
                     ),
                   ],
